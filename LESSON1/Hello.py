@@ -1,2 +1,2 @@
-greeting = "Hello World"
-print(greeting)
+name = input("What's your name? ").strip().title()
+print(f"hello, {name}")
